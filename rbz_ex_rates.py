@@ -4,11 +4,10 @@ from bs4 import BeautifulSoup
 import pdfplumber
 import pandas as pd
 import os
-from datetime import datetime
 
 def download_latest_pdf():
     url = "https://www.rbz.co.zw/documents/Exchange_Rates/2024/June/"
-    response = requests.get(url)
+    response = requests.get(url, verify=False)  # Disable SSL verification
     soup = BeautifulSoup(response.text, 'html.parser')
     links = soup.find_all('a', href=True)
     pdf_link = None
@@ -21,7 +20,7 @@ def download_latest_pdf():
     if pdf_link:
         pdf_url = f"https://www.rbz.co.zw{pdf_link}"
         pdf_path = "latest_exchange_rates.pdf"
-        response = requests.get(pdf_url)
+        response = requests.get(pdf_url, verify=False)  # Disable SSL verification
         with open(pdf_path, 'wb') as file:
             file.write(response.content)
         return pdf_path
