@@ -3,7 +3,6 @@ import requests
 from requests.adapters import HTTPAdapter, Retry
 import pdfplumber
 import pandas as pd
-import os
 from datetime import datetime
 
 def download_latest_pdf():
@@ -16,7 +15,7 @@ def download_latest_pdf():
         retry_strategy = Retry(
             total=5,
             status_forcelist=[429, 500, 502, 503, 504],
-            method_whitelist=["HEAD", "GET", "OPTIONS"],
+            allowed_methods=["HEAD", "GET", "OPTIONS"],
             backoff_factor=1
         )
         adapter = HTTPAdapter(max_retries=retry_strategy)
@@ -49,8 +48,19 @@ def extract_exchange_rates(pdf_path):
         print(f"Error extracting data from PDF: {e}")
         return None, None
 
+def make_column_names_unique(headers):
+    seen = {}
+    for i, col in enumerate(headers):
+        if col in seen:
+            seen[col] += 1
+            headers[i] = f"{col}_{seen[col]}"
+        else:
+            seen[col] = 0
+    return headers
+
 def convert_to_formats(headers, data):
     try:
+        headers = make_column_names_unique(headers)
         df = pd.DataFrame(data, columns=headers)
         # Save to various formats
         df.to_excel("exchange_rates.xlsx", index=False)
