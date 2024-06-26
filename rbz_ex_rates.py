@@ -9,8 +9,8 @@ def download_latest_pdf():
     try:
         # Construct the URL based on the current date
         today = datetime.today()
-        # url = f"https://www.rbz.co.zw/documents/Exchange_Rates/{today.year}/{today.strftime('%B').capitalize()}/RATES_{today.day}_{today.strftime('%B').upper()}_{today.year}.pdf"
-        url = "https://www.rbz.co.zw/documents/Exchange_Rates/2024/June/RATES_26_JUNE_2024.pdf"
+        url = f"https://www.rbz.co.zw/documents/Exchange_Rates/{today.year}/{today.strftime('%B').capitalize()}/RATES_{today.day}_{today.strftime('%B').upper()}_{today.year}.pdf"
+        
         # Setup retry strategy
         retry_strategy = Retry(
             total=5,
@@ -49,9 +49,17 @@ def extract_exchange_rates(pdf_path):
         return None, None
 
 def clean_data(headers, data):
-    # Remove any headers that are not valid column names
-    valid_headers = [header if header is not None and (header.isalnum() or " " in header) else f"column_{i}" for i, header in enumerate(headers)]
-    cleaned_data = [row for row in data if len(row) == len(valid_headers)]
+    # Ensure headers are valid column names
+    valid_headers = []
+    for i, header in enumerate(headers):
+        if header is None or not header.isalnum():
+            valid_headers.append(f"column_{i}")
+        else:
+            valid_headers.append(header)
+
+    # Filter out rows with invalid length or containing the date string
+    cleaned_data = [row for row in data if len(row) == len(valid_headers) and not any("Wednesday" in cell for cell in row if cell)]
+
     return valid_headers, cleaned_data
 
 def make_column_names_unique(headers):
