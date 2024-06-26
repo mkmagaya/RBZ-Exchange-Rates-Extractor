@@ -1,81 +1,101 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter, Retry
 import pdfplumber
 import pandas as pd
 import os
+from datetime import datetime
 
 def download_latest_pdf():
-    url = "https://www.rbz.co.zw/documents/Exchange_Rates/2024/June/"
-    response = requests.get(url, verify=False)  # Disable SSL verification
-    soup = BeautifulSoup(response.text, 'html.parser')
-    links = soup.find_all('a', href=True)
-    pdf_link = None
+    try:
+        # Construct the URL based on the current date
+        today = datetime.today()
+        url = f"https://www.rbz.co.zw/documents/Exchange_Rates/{today.year}/{today.strftime('%B').capitalize()}/RATES_{today.day}_{today.strftime('%B').upper()}_{today.year}.pdf"
+        
+        # Setup retry strategy
+        retry_strategy = Retry(
+            total=5,
+            status_forcelist=[429, 500, 502, 503, 504],
+            method_whitelist=["HEAD", "GET", "OPTIONS"],
+            backoff_factor=1
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        http = requests.Session()
+        http.mount("https://", adapter)
+        http.mount("http://", adapter)
+        
+        response = http.get(url, verify=False, timeout=10)  # Disable SSL verification, set timeout
+        response.raise_for_status()  # Raise HTTPError for bad responses
 
-    for link in links:
-        if link['href'].endswith('.pdf') and "RATES" in link['href']:
-            pdf_link = link['href']
-            break
-
-    if pdf_link:
-        pdf_url = f"https://www.rbz.co.zw{pdf_link}"
         pdf_path = "latest_exchange_rates.pdf"
-        response = requests.get(pdf_url, verify=False)  # Disable SSL verification
         with open(pdf_path, 'wb') as file:
             file.write(response.content)
         return pdf_path
-    return None
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error downloading PDF: {e}")
+        print(f"Error downloading PDF: {e}")
+        return None
 
 def extract_exchange_rates(pdf_path):
-    with pdfplumber.open(pdf_path) as pdf:
-        page = pdf.pages[0]
-        table = page.extract_table()
-        headers = table[0]
-        data = table[1:]
-    return headers, data
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            page = pdf.pages[0]
+            table = page.extract_table()
+            headers = table[0]
+            data = table[1:]
+        return headers, data
+    except Exception as e:
+        st.error(f"Error extracting data from PDF: {e}")
+        print(f"Error extracting data from PDF: {e}")
+        return None, None
 
 def convert_to_formats(headers, data):
-    df = pd.DataFrame(data, columns=headers)
-
-    # Save to various formats
-    df.to_excel("exchange_rates.xlsx", index=False)
-    df.to_json("exchange_rates.json", orient='records')
-    df.to_csv("exchange_rates.csv", index=False)
-    df.to_xml("exchange_rates.xml", index=False)
-
-    return df
+    try:
+        df = pd.DataFrame(data, columns=headers)
+        # Save to various formats
+        df.to_excel("exchange_rates.xlsx", index=False)
+        df.to_json("exchange_rates.json", orient='records')
+        df.to_csv("exchange_rates.csv", index=False)
+        df.to_xml("exchange_rates.xml", index=False)
+        return df
+    except Exception as e:
+        st.error(f"Error converting data to formats: {e}")
+        print(f"Error converting data to formats: {e}")
+        return None
 
 def display_exchange_rates():
     st.title("RBZ Exchange Rates")
     pdf_path = download_latest_pdf()
     if pdf_path:
         headers, data = extract_exchange_rates(pdf_path)
-        df = convert_to_formats(headers, data)
-        st.write(df)
-        
-        st.download_button(
-            label="Download as Excel",
-            data=open("exchange_rates.xlsx", "rb").read(),
-            file_name="exchange_rates.xlsx"
-        )
-        
-        st.download_button(
-            label="Download as JSON",
-            data=open("exchange_rates.json", "rb").read(),
-            file_name="exchange_rates.json"
-        )
-        
-        st.download_button(
-            label="Download as CSV",
-            data=open("exchange_rates.csv", "rb").read(),
-            file_name="exchange_rates.csv"
-        )
-        
-        st.download_button(
-            label="Download as XML",
-            data=open("exchange_rates.xml", "rb").read(),
-            file_name="exchange_rates.xml"
-        )
+        if headers and data:
+            df = convert_to_formats(headers, data)
+            if df is not None:
+                st.write(df)
+                
+                st.download_button(
+                    label="Download as Excel",
+                    data=open("exchange_rates.xlsx", "rb").read(),
+                    file_name="exchange_rates.xlsx"
+                )
+                
+                st.download_button(
+                    label="Download as JSON",
+                    data=open("exchange_rates.json", "rb").read(),
+                    file_name="exchange_rates.json"
+                )
+                
+                st.download_button(
+                    label="Download as CSV",
+                    data=open("exchange_rates.csv", "rb").read(),
+                    file_name="exchange_rates.csv"
+                )
+                
+                st.download_button(
+                    label="Download as XML",
+                    data=open("exchange_rates.xml", "rb").read(),
+                    file_name="exchange_rates.xml"
+                )
     else:
         st.error("Failed to download the latest exchange rates PDF.")
 
