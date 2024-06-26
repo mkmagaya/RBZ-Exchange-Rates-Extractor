@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <column_0>CURRENCY</column_0>
+    <column_1>INDICES</column_1>
+    <column_2>BID</column_2>
+    <column_3>ASK</column_3>
+    <column_4>Mid Rate</column_4>
+    <column_5>BID</column_5>
+    <column_6>ASK</column_6>
+    <column_7>Mid Rate</column_7>
+  </row>
+  <row>
+    <column_0/>
+    <column_1/>
+    <column_2/>
+    <column_3/>
+    <column_4/>
+    <column_5>ZiG</column_5>
+    <column_6>ZiG</column_6>
+    <column_7>ZiG</column_7>
+  </row>
+  <row>
+    <column_0>INTERBANK RATE</column_0>
+    <column_1/>
+    <column_2/>
+    <column_3/>
+    <column_4/>
+    <column_5/>
+    <column_6/>
+    <column_7/>
+  </row>
+  <row>
+    <column_0>USD</column_0>
+    <column_1/>
+    <column_2>1</column_2>
+    <column_3>1</column_3>
+    <column_4>1 .0000</column_4>
+    <column_5>13.261</column_5>
+    <column_6>13.941</column_6>
+    <column_7>13.6010</column_7>
+  </row>
+  <row>
+    <column_0/>
+    <column_1/>
+    <column_2/>
+    <column_3/>
+    <column_4/>
+    <column_5/>
+    <column_6/>
+    <column_7/>
+  </row>
+  <row>
+    <column_0>ZAR</column_0>
+    <column_1/>
+    <column_2>18.2283</column_2>
+    <column_3>18.2382</column_3>
+    <column_4>1 8.23325</column_4>
+    <column_5>1.3075</column_5>
+    <column_6>1.3753</column_6>
+    <column_7>1.3414</column_7>
+  </row>
+  <row>
+    <column_0>GBP</column_0>
+    <column_1>*</column_1>
+    <column_2>1.2682</column_2>
+    <column_3>1.2686</column_3>
+    <column_4>1 .26840</column_4>
+    <column_5>16.8176</column_5>
+    <column_6>17.6855</column_6>
+    <column_7>17.2516</column_7>
+  </row>
+  <row>
+    <column_0>JPY</column_0>
+    <column_1/>
+    <column_2>159.7900</column_2>
+    <column_3>159.8000</column_3>
+    <column_4>1 59.79500</column_4>
+    <column_5>11.4618</column_5>
+    <column_6>12.0503</column_6>
+    <column_7>11.7561</column_7>
+  </row>
+  <row>
+    <column_0>ZMW/ZMK</column_0>
+    <column_1/>
+    <column_2>25.6720</column_2>
+    <column_3>26.0050</column_3>
+    <column_4>2 5.83850</column_4>
+    <column_5>1.8414</column_5>
+    <column_6>1.9610</column_6>
+    <column_7>1.9012</column_7>
+  </row>
+  <row>
+    <column_0>BWP</column_0>
+    <column_1/>
+    <column_2>0.0736</column_2>
+    <column_3>0.0738</column_3>
+    <column_4>0 .07370</column_4>
+    <column_5>0.9760</column_5>
+    <column_6>1.0288</column_6>
+    <column_7>1.0024</column_7>
+  </row>
+  <row>
+    <column_0>CHF</column_0>
+    <column_1/>
+    <column_2>0.8953</column_2>
+    <column_3>0.8954</column_3>
+    <column_4>0 .89535</column_4>
+    <column_5>11.8725</column_5>
+    <column_6>12.4827</column_6>
+    <column_7>12.1776</column_7>
+  </row>
+  <row>
+    <column_0>MWK</column_0>
+    <column_1/>
+    <column_2>1716.7300</column_2>
+    <column_3>1751.0000</column_3>
+    <column_4>1 ,733.86500</column_4>
+    <column_5>123.1425</column_5>
+    <column_6>132.0413</column_6>
+    <column_7>127.5919</column_7>
+  </row>
+  <row>
+    <column_0>AUD</column_0>
+    <column_1>*</column_1>
+    <column_2>0.6681</column_2>
+    <column_3>0.6683</column_3>
+    <column_4>0 .66820</column_4>
+    <column_5>8.8596</column_5>
+    <column_6>9.3167</column_6>
+    <column_7>9.0882</column_7>
+  </row>
+  <row>
+    <column_0>SDR</column_0>
+    <column_1>*</column_1>
+    <column_2>1.316820</column_2>
+    <column_3>1.316820</column_3>
+    <column_4>1 .31682</column_4>
+    <column_5>17.9100</column_5>
+    <column_6>17.9100</column_6>
+    <column_7>17.9100</column_7>
+  </row>
+  <row>
+    <column_0>MZN/MET</column_0>
+    <column_1/>
+    <column_2>63.2600</column_2>
+    <column_3>63.9400</column_3>
+    <column_4>6 3.60000</column_4>
+    <column_5>4.5376</column_5>
+    <column_6>4.8216</column_6>
+    <column_7>4.6796</column_7>
+  </row>
+  <row>
+    <column_0>NOK</column_0>
+    <column_1/>
+    <column_2>10.6138</column_2>
+    <column_3>10.6195</column_3>
+    <column_4>1 0.61665</column_4>
+    <column_5>0.7613</column_5>
+    <column_6>0.8008</column_6>
+    <column_7>0.7811</column_7>
+  </row>
+  <row>
+    <column_0>SEK</column_0>
+    <column_1/>
+    <column_2>10.5149</column_2>
+    <column_3>10.5190</column_3>
+    <column_4>1 0.51695</column_4>
+    <column_5>0.7542</column_5>
+    <column_6>0.7932</column_6>
+    <column_7>0.7737</column_7>
+  </row>
+  <row>
+    <column_0>CAD</column_0>
+    <column_1>*</column_1>
+    <column_2>1.3657</column_2>
+    <column_3>1.3661</column_3>
+    <column_4>1 .36590</column_4>
+    <column_5>0.0979</column_5>
+    <column_6>0.1030</column_6>
+    <column_7>0.1005</column_7>
+  </row>
+  <row>
+    <column_0>EUR</column_0>
+    <column_1>*</column_1>
+    <column_2>1.0704</column_2>
+    <column_3>1.0708</column_3>
+    <column_4>1 .07060</column_4>
+    <column_5>14.1945</column_5>
+    <column_6>14.9280</column_6>
+    <column_7>14.5613</column_7>
+  </row>
+  <row>
+    <column_0>CNY</column_0>
+    <column_1/>
+    <column_2>7.2662</column_2>
+    <column_3>7.2663</column_3>
+    <column_4>7 .26625</column_4>
+    <column_5>0.5212</column_5>
+    <column_6>0.5479</column_6>
+    <column_7>0.5346</column_7>
+  </row>
+  <row>
+    <column_0>INR</column_0>
+    <column_1/>
+    <column_2>83.4875</column_2>
+    <column_3>83.4975</column_3>
+    <column_4>8 3.49250</column_4>
+    <column_5>5.9886</column_5>
+    <column_6>6.2964</column_6>
+    <column_7>6.1425</column_7>
+  </row>
+  <row>
+    <column_0>NZD</column_0>
+    <column_1>*</column_1>
+    <column_2>0.6115</column_2>
+    <column_3>0.6119</column_3>
+    <column_4>0 .61170</column_4>
+    <column_5>8.1091</column_5>
+    <column_6>8.5304</column_6>
+    <column_7>8.3198</column_7>
+  </row>
+  <row>
+    <column_0>DKK</column_0>
+    <column_1/>
+    <column_2>6.9672</column_2>
+    <column_3>6.9682</column_3>
+    <column_4>6 .96770</column_4>
+    <column_5>0.4997</column_5>
+    <column_6>0.5254</column_6>
+    <column_7>0.5126</column_7>
+  </row>
+  <row>
+    <column_0>XAU</column_0>
+    <column_1/>
+    <column_2>2315.6250</column_2>
+    <column_3>2316.1250</column_3>
+    <column_4>2,315.87500</column_4>
+    <column_5>30707.5031</column_5>
+    <column_6>32289.0986</column_6>
+    <column_7>31498.3008</column_7>
+  </row>
+  <row>
+    <column_0>AFN</column_0>
+    <column_1/>
+    <column_2>70.5600</column_2>
+    <column_3>70.7600</column_3>
+    <column_4>7 0.66000</column_4>
+    <column_5>5.0613</column_5>
+    <column_6>5.3359</column_6>
+    <column_7>5.1986</column_7>
+  </row>
+  <row>
+    <column_0>THB</column_0>
+    <column_1/>
+    <column_2>36.7900</column_2>
+    <column_3>36.8100</column_3>
+    <column_4>3 6.80000</column_4>
+    <column_5>2.6389</column_5>
+    <column_6>2.7758</column_6>
+    <column_7>2.7074</column_7>
+  </row>
+  <row>
+    <column_0>ETB</column_0>
+    <column_1/>
+    <column_2>57.2915</column_2>
+    <column_3>58.1366</column_3>
+    <column_4>5 7.71405</column_4>
+    <column_5>4.1095</column_5>
+    <column_6>4.3840</column_6>
+    <column_7>4.2468</column_7>
+  </row>
+  <row>
+    <column_0>SZL</column_0>
+    <column_1/>
+    <column_2>18.2297</column_2>
+    <column_3>18.2353</column_3>
+    <column_4>1 8.23250</column_4>
+    <column_5>1.3076</column_5>
+    <column_6>1.3751</column_6>
+    <column_7>1.3414</column_7>
+  </row>
+  <row>
+    <column_0>MUR</column_0>
+    <column_1/>
+    <column_2>46.8800</column_2>
+    <column_3>47.1800</column_3>
+    <column_4>4 7.03000</column_4>
+    <column_5>3.3627</column_5>
+    <column_6>3.5578</column_6>
+    <column_7>3.4603</column_7>
+  </row>
+  <row>
+    <column_0>MYR</column_0>
+    <column_1/>
+    <column_2>4.7090</column_2>
+    <column_3>4.7130</column_3>
+    <column_4>4 .71100</column_4>
+    <column_5>0.3377</column_5>
+    <column_6>0.3554</column_6>
+    <column_7>0.3466</column_7>
+  </row>
+  <row>
+    <column_0>LSL</column_0>
+    <column_1/>
+    <column_2>18.2297</column_2>
+    <column_3>18.2353</column_3>
+    <column_4>1 8.23250</column_4>
+    <column_5>1.3076</column_5>
+    <column_6>1.3751</column_6>
+    <column_7>1.3414</column_7>
+  </row>
+  <row>
+    <column_0>CYP</column_0>
+    <column_1>*</column_1>
+    <column_2>0.3975</column_2>
+    <column_3>0.3980</column_3>
+    <column_4>0 .39775</column_4>
+    <column_5>0.0285</column_5>
+    <column_6>0.0300</column_6>
+    <column_7>0.0293</column_7>
+  </row>
+  <row>
+    <column_0>EGP</column_0>
+    <column_1/>
+    <column_2>48.3500</column_2>
+    <column_3>48.4500</column_3>
+    <column_4>4 8.40000</column_4>
+    <column_5>3.4681</column_5>
+    <column_6>3.6535</column_6>
+    <column_7>3.5608</column_7>
+  </row>
+  <row>
+    <column_0>BRL</column_0>
+    <column_1/>
+    <column_2>5.4511</column_2>
+    <column_3>5.4521</column_3>
+    <column_4>5 .45160</column_4>
+    <column_5>0.3910</column_5>
+    <column_6>0.4111</column_6>
+    <column_7>0.4011</column_7>
+  </row>
+  <row>
+    <column_0>TZS</column_0>
+    <column_1/>
+    <column_2>2630.0000</column_2>
+    <column_3>2640.0000</column_3>
+    <column_4>2,635.00000</column_4>
+    <column_5>188.6521</column_5>
+    <column_6>199.0800</column_6>
+    <column_7>193.8661</column_7>
+  </row>
+  <row>
+    <column_0>RUB</column_0>
+    <column_1/>
+    <column_2>87.0000</column_2>
+    <column_3>87.0200</column_3>
+    <column_4>8 7.01000</column_4>
+    <column_5>6.2405</column_5>
+    <column_6>6.5620</column_6>
+    <column_7>6.4013</column_7>
+  </row>
+  <row>
+    <column_0>KES</column_0>
+    <column_1/>
+    <column_2>128.0000</column_2>
+    <column_3>129.0000</column_3>
+    <column_4>1 28.50000</column_4>
+    <column_5>9.1815</column_5>
+    <column_6>9.7277</column_6>
+    <column_7>9.4546</column_7>
+  </row>
+  <row>
+    <column_0>DEM</column_0>
+    <column_1/>
+    <column_2>2.2150</column_2>
+    <column_3>2.2175</column_3>
+    <column_4>2 .21625</column_4>
+    <column_5>0.1588</column_5>
+    <column_6>0.1672</column_6>
+    <column_7>0.1630</column_7>
+  </row>
+  <row>
+    <column_0>ESP</column_0>
+    <column_1/>
+    <column_2>188.4300</column_2>
+    <column_3>188.6500</column_3>
+    <column_4>1 88.54000</column_4>
+    <column_5>13.5162</column_5>
+    <column_6>14.2259</column_6>
+    <column_7>13.8711</column_7>
+  </row>
+  <row>
+    <column_0>ITL</column_0>
+    <column_1/>
+    <column_2>2192.8300</column_2>
+    <column_3>2195.3200</column_3>
+    <column_4>2,194.07500</column_4>
+    <column_5>157.2935</column_5>
+    <column_6>165.5470</column_6>
+    <column_7>161.4203</column_7>
+  </row>
+  <row>
+    <column_0>FRF</column_0>
+    <column_1/>
+    <column_2>7.4287</column_2>
+    <column_3>7.4372</column_3>
+    <column_4>7 .43295</column_4>
+    <column_5>0.5328</column_5>
+    <column_6>0.5608</column_6>
+    <column_7>0.5468</column_7>
+  </row>
+  <row>
+    <column_0>HKD</column_0>
+    <column_1/>
+    <column_2>7.7495</column_2>
+    <column_3>7.8094</column_3>
+    <column_4>7 .77945</column_4>
+    <column_5>0.5558</column_5>
+    <column_6>0.5888</column_6>
+    <column_7>0.5723</column_7>
+  </row>
+  <row>
+    <column_0>ARS</column_0>
+    <column_1/>
+    <column_2>909.0000</column_2>
+    <column_3>909.5000</column_3>
+    <column_4>9 09.25000</column_4>
+    <column_5>65.2033</column_5>
+    <column_6>68.5845</column_6>
+    <column_7>66.8939</column_7>
+  </row>
+  <row>
+    <column_0>XAF</column_0>
+    <column_1/>
+    <column_2>612.5900</column_2>
+    <column_3>622.1700</column_3>
+    <column_4>6 17.38000</column_4>
+    <column_5>43.9416</column_5>
+    <column_6>46.9172</column_6>
+    <column_7>45.4294</column_7>
+  </row>
+</data>
