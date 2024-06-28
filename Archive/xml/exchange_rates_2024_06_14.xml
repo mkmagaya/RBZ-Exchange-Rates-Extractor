@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <CURRENCY>CURRENCY</CURRENCY>
+    <INDICES>INDICES</INDICES>
+    <BID>BID</BID>
+    <ASK>ASK</ASK>
+    <Mid_Rate>Mid Rate</Mid_Rate>
+    <BID_1>BID</BID_1>
+    <ASK_1>ASK</ASK_1>
+    <Mid_Rate_1>Mid Rate</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY/>
+    <INDICES/>
+    <BID/>
+    <ASK/>
+    <Mid_Rate/>
+    <BID_1>ZiG</BID_1>
+    <ASK_1>ZiG</ASK_1>
+    <Mid_Rate_1>ZiG</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>INTERBANK RATE</CURRENCY>
+    <INDICES/>
+    <BID/>
+    <ASK/>
+    <Mid_Rate/>
+    <BID_1/>
+    <ASK_1/>
+    <Mid_Rate_1/>
+  </row>
+  <row>
+    <CURRENCY>USD</CURRENCY>
+    <INDICES/>
+    <BID>1</BID>
+    <ASK>1</ASK>
+    <Mid_Rate>1 .0000</Mid_Rate>
+    <BID_1>13.1433</BID_1>
+    <ASK_1>13.8173</ASK_1>
+    <Mid_Rate_1>13.4803</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY/>
+    <INDICES/>
+    <BID/>
+    <ASK/>
+    <Mid_Rate/>
+    <BID_1/>
+    <ASK_1/>
+    <Mid_Rate_1/>
+  </row>
+  <row>
+    <CURRENCY>ZAR</CURRENCY>
+    <INDICES/>
+    <BID>18.4391</BID>
+    <ASK>18.4465</ASK>
+    <Mid_Rate>1 8.44280</Mid_Rate>
+    <BID_1>1.3344</BID_1>
+    <ASK_1>1.4034</ASK_1>
+    <Mid_Rate_1>1.3689</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>GBP</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>1.2748</BID>
+    <ASK>1.2755</ASK>
+    <Mid_Rate>1 .27515</Mid_Rate>
+    <BID_1>16.7550</BID_1>
+    <ASK_1>17.6239</ASK_1>
+    <Mid_Rate_1>17.1895</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>JPY</CURRENCY>
+    <INDICES/>
+    <BID>157.9900</BID>
+    <ASK>158.0400</ASK>
+    <Mid_Rate>1 58.01500</Mid_Rate>
+    <BID_1>11.4342</BID_1>
+    <ASK_1>12.0243</ASK_1>
+    <Mid_Rate_1>11.7293</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>ZMW/ZMK</CURRENCY>
+    <INDICES/>
+    <BID>26.3760</BID>
+    <ASK>27.0290</ASK>
+    <Mid_Rate>2 6.70250</Mid_Rate>
+    <BID_1>1.9089</BID_1>
+    <ASK_1>2.0564</ASK_1>
+    <Mid_Rate_1>1.9827</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>BWP</CURRENCY>
+    <INDICES/>
+    <BID>0.0732</BID>
+    <ASK>0.0734</ASK>
+    <Mid_Rate>0 .07330</Mid_Rate>
+    <BID_1>0.9620</BID_1>
+    <ASK_1>1.0141</ASK_1>
+    <Mid_Rate_1>0.9881</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>CHF</CURRENCY>
+    <INDICES/>
+    <BID>0.8941</BID>
+    <ASK>0.8942</ASK>
+    <Mid_Rate>0 .89415</Mid_Rate>
+    <BID_1>11.7514</BID_1>
+    <ASK_1>12.3554</ASK_1>
+    <Mid_Rate_1>12.0534</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>MWK</CURRENCY>
+    <INDICES/>
+    <BID>1716.7300</BID>
+    <ASK>1750.0300</ASK>
+    <Mid_Rate>1 ,733.38000</Mid_Rate>
+    <BID_1>124.2449</BID_1>
+    <ASK_1>133.1499</ASK_1>
+    <Mid_Rate_1>128.6974</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>AUD</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>0.6630</BID>
+    <ASK>0.6632</ASK>
+    <Mid_Rate>0 .66310</Mid_Rate>
+    <BID_1>8.7140</BID_1>
+    <ASK_1>9.1636</ASK_1>
+    <Mid_Rate_1>8.9388</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>SDR</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>1.321760</BID>
+    <ASK>1.321760</ASK>
+    <Mid_Rate>1 .32176</Mid_Rate>
+    <BID_1>17.8177</BID_1>
+    <ASK_1>17.8177</ASK_1>
+    <Mid_Rate_1>17.8177</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>MZN/MET</CURRENCY>
+    <INDICES/>
+    <BID>63.2600</BID>
+    <ASK>64.0900</ASK>
+    <Mid_Rate>6 3.67500</Mid_Rate>
+    <BID_1>4.5783</BID_1>
+    <ASK_1>4.8762</ASK_1>
+    <Mid_Rate_1>4.7273</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>NOK</CURRENCY>
+    <INDICES/>
+    <BID>10.6474</BID>
+    <ASK>10.6534</ASK>
+    <Mid_Rate>1 0.65040</Mid_Rate>
+    <BID_1>0.7705</BID_1>
+    <ASK_1>0.8105</ASK_1>
+    <Mid_Rate_1>0.7905</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>SEK</CURRENCY>
+    <INDICES/>
+    <BID>10.4833</BID>
+    <ASK>10.4885</ASK>
+    <Mid_Rate>1 0.48590</Mid_Rate>
+    <BID_1>0.7587</BID_1>
+    <ASK_1>0.7980</ASK_1>
+    <Mid_Rate_1>0.7784</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>CAD</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>1.3738</BID>
+    <ASK>1.3739</ASK>
+    <Mid_Rate>1 .37385</Mid_Rate>
+    <BID_1>0.0994</BID_1>
+    <ASK_1>0.1045</ASK_1>
+    <Mid_Rate_1>0.1020</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>EUR</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>1.0734</BID>
+    <ASK>1.0736</ASK>
+    <Mid_Rate>1 .07350</Mid_Rate>
+    <BID_1>14.1080</BID_1>
+    <ASK_1>14.8342</ASK_1>
+    <Mid_Rate_1>14.4711</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>CNY</CURRENCY>
+    <INDICES/>
+    <BID>7.2549</BID>
+    <ASK>7.2550</ASK>
+    <Mid_Rate>7 .25495</Mid_Rate>
+    <BID_1>0.5250</BID_1>
+    <ASK_1>0.5519</ASK_1>
+    <Mid_Rate_1>0.5385</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>INR</CURRENCY>
+    <INDICES/>
+    <BID>83.5400</BID>
+    <ASK>83.5500</ASK>
+    <Mid_Rate>8 3.54500</Mid_Rate>
+    <BID_1>6.0460</BID_1>
+    <ASK_1>6.3568</ASK_1>
+    <Mid_Rate_1>6.2014</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>NZD</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>0.6149</BID>
+    <ASK>0.6154</ASK>
+    <Mid_Rate>0 .61515</Mid_Rate>
+    <BID_1>8.0818</BID_1>
+    <ASK_1>8.5031</ASK_1>
+    <Mid_Rate_1>8.2925</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>DKK</CURRENCY>
+    <INDICES/>
+    <BID>6.9479</BID>
+    <ASK>6.9486</ASK>
+    <Mid_Rate>6 .94825</Mid_Rate>
+    <BID_1>0.5028</BID_1>
+    <ASK_1>0.5286</ASK_1>
+    <Mid_Rate_1>0.5157</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>XAU</CURRENCY>
+    <INDICES/>
+    <BID>2307.2600</BID>
+    <ASK>2307.4600</ASK>
+    <Mid_Rate>2,307.36000</Mid_Rate>
+    <BID_1>30325.0103</BID_1>
+    <ASK_1>31882.8670</ASK_1>
+    <Mid_Rate_1>31103.9387</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>AFN</CURRENCY>
+    <INDICES/>
+    <BID>70.7000</BID>
+    <ASK>70.9000</ASK>
+    <Mid_Rate>7 0.80000</Mid_Rate>
+    <BID_1>5.1167</BID_1>
+    <ASK_1>5.3943</ASK_1>
+    <Mid_Rate_1>5.2555</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>THB</CURRENCY>
+    <INDICES/>
+    <BID>36.7500</BID>
+    <ASK>36.7700</ASK>
+    <Mid_Rate>3 6.76000</Mid_Rate>
+    <BID_1>2.6597</BID_1>
+    <ASK_1>2.7976</ASK_1>
+    <Mid_Rate_1>2.7287</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>ETB</CURRENCY>
+    <INDICES/>
+    <BID>57.1829</BID>
+    <ASK>58.1366</ASK>
+    <Mid_Rate>5 7.65975</Mid_Rate>
+    <BID_1>4.1385</BID_1>
+    <ASK_1>4.4232</ASK_1>
+    <Mid_Rate_1>4.2809</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>SZL</CURRENCY>
+    <INDICES/>
+    <BID>18.4388</BID>
+    <ASK>18.4448</ASK>
+    <Mid_Rate>1 8.44180</Mid_Rate>
+    <BID_1>1.3344</BID_1>
+    <ASK_1>1.4033</ASK_1>
+    <Mid_Rate_1>1.3689</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>MUR</CURRENCY>
+    <INDICES/>
+    <BID>46.6000</BID>
+    <ASK>46.9000</ASK>
+    <Mid_Rate>4 6.75000</Mid_Rate>
+    <BID_1>3.3725</BID_1>
+    <ASK_1>3.5683</ASK_1>
+    <Mid_Rate_1>3.4704</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>MYR</CURRENCY>
+    <INDICES/>
+    <BID>4.7100</BID>
+    <ASK>4.7150</ASK>
+    <Mid_Rate>4 .71250</Mid_Rate>
+    <BID_1>0.3408</BID_1>
+    <ASK_1>0.3587</ASK_1>
+    <Mid_Rate_1>0.3498</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>LSL</CURRENCY>
+    <INDICES/>
+    <BID>18.4388</BID>
+    <ASK>18.4448</ASK>
+    <Mid_Rate>1 8.44180</Mid_Rate>
+    <BID_1>1.3344</BID_1>
+    <ASK_1>1.4033</ASK_1>
+    <Mid_Rate_1>1.3689</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>CYP</CURRENCY>
+    <INDICES>*</INDICES>
+    <BID>0.3975</BID>
+    <ASK>0.3980</ASK>
+    <Mid_Rate>0 .39775</Mid_Rate>
+    <BID_1>0.0287</BID_1>
+    <ASK_1>0.0302</ASK_1>
+    <Mid_Rate_1>0.0295</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>EGP</CURRENCY>
+    <INDICES/>
+    <BID>47.6600</BID>
+    <ASK>47.7600</ASK>
+    <Mid_Rate>4 7.71000</Mid_Rate>
+    <BID_1>3.4492</BID_1>
+    <ASK_1>3.6337</ASK_1>
+    <Mid_Rate_1>3.5415</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>BRL</CURRENCY>
+    <INDICES/>
+    <BID>5.3628</BID>
+    <ASK>5.3638</ASK>
+    <Mid_Rate>5 .36330</Mid_Rate>
+    <BID_1>0.3881</BID_1>
+    <ASK_1>0.4081</ASK_1>
+    <Mid_Rate_1>0.3981</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>TZS</CURRENCY>
+    <INDICES/>
+    <BID>2610.0000</BID>
+    <ASK>2620.0000</ASK>
+    <Mid_Rate>2,615.00000</Mid_Rate>
+    <BID_1>188.8936</BID_1>
+    <ASK_1>199.3411</ASK_1>
+    <Mid_Rate_1>194.1174</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>RUB</CURRENCY>
+    <INDICES/>
+    <BID>88.8000</BID>
+    <ASK>88.8200</ASK>
+    <Mid_Rate>8 8.81000</Mid_Rate>
+    <BID_1>6.4267</BID_1>
+    <ASK_1>6.7578</ASK_1>
+    <Mid_Rate_1>6.5923</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>KES</CURRENCY>
+    <INDICES/>
+    <BID>127.7500</BID>
+    <ASK>128.7500</ASK>
+    <Mid_Rate>1 28.25000</Mid_Rate>
+    <BID_1>9.2456</BID_1>
+    <ASK_1>9.7958</ASK_1>
+    <Mid_Rate_1>9.5207</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>DEM</CURRENCY>
+    <INDICES/>
+    <BID>2.2150</BID>
+    <ASK>2.2175</ASK>
+    <Mid_Rate>2 .21625</Mid_Rate>
+    <BID_1>0.1603</BID_1>
+    <ASK_1>0.1687</ASK_1>
+    <Mid_Rate_1>0.1645</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>ESP</CURRENCY>
+    <INDICES/>
+    <BID>188.4300</BID>
+    <ASK>188.6500</ASK>
+    <Mid_Rate>1 88.54000</Mid_Rate>
+    <BID_1>13.6372</BID_1>
+    <ASK_1>14.3533</ASK_1>
+    <Mid_Rate_1>13.9953</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>ITL</CURRENCY>
+    <INDICES/>
+    <BID>2192.8300</BID>
+    <ASK>2195.3200</ASK>
+    <Mid_Rate>2,194.07500</Mid_Rate>
+    <BID_1>158.7017</BID_1>
+    <ASK_1>167.0295</ASK_1>
+    <Mid_Rate_1>162.8656</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>FRF</CURRENCY>
+    <INDICES/>
+    <BID>7.4287</BID>
+    <ASK>7.4372</ASK>
+    <Mid_Rate>7 .43295</Mid_Rate>
+    <BID_1>0.5376</BID_1>
+    <ASK_1>0.5658</ASK_1>
+    <Mid_Rate_1>0.5517</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>HKD</CURRENCY>
+    <INDICES/>
+    <BID>7.7495</BID>
+    <ASK>7.8097</ASK>
+    <Mid_Rate>7 .77960</Mid_Rate>
+    <BID_1>0.5608</BID_1>
+    <ASK_1>0.5941</ASK_1>
+    <Mid_Rate_1>0.5775</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>ARS</CURRENCY>
+    <INDICES/>
+    <BID>902.0000</BID>
+    <ASK>902.5000</ASK>
+    <Mid_Rate>9 02.25000</Mid_Rate>
+    <BID_1>65.2804</BID_1>
+    <ASK_1>68.6661</ASK_1>
+    <Mid_Rate_1>66.9733</Mid_Rate_1>
+  </row>
+  <row>
+    <CURRENCY>XAF</CURRENCY>
+    <INDICES/>
+    <BID>610.1500</BID>
+    <ASK>616.6500</ASK>
+    <Mid_Rate>6 13.40000</Mid_Rate>
+    <BID_1>44.1584</BID_1>
+    <ASK_1>46.9174</ASK_1>
+    <Mid_Rate_1>45.5379</Mid_Rate_1>
+  </row>
+</data>
